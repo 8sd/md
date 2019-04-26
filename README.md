@@ -1,6 +1,6 @@
-# MD - Use Mardown in HTML
+# `md` - Use Markdown in HTML
 
-To use `md` import [`marked`](https://github.com/markedjs/marked) and afterwards `md`.
+To use `md` first import [`marked`](https://github.com/markedjs/marked) and afterwards `md`.
 
 For examples see the `index.html` which is a demo file.
 
