@@ -2,6 +2,16 @@
 
 To use `md` first import [`marked`](https://github.com/markedjs/marked) and afterwards `md`.
 
+After including `md` one can use markdown in html like this:
+
+```html
+<body>
+  <md>
+    `markdown`
+  </md>
+</body>
+```
+
 For examples see the `index.html` which is a demo file.
 
 ## License
