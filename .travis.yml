@@ -1,14 +1,12 @@
 language: minimal
 install:
-  - ./build.sh
-  - echo md.release.js
+- "./build.sh"
+- echo md.release.js
 deploy:
   provider: releases
-  api_key: "GITHUB OAUTH TOKEN"
-  file: 
-    - md.release.js
-#    - md.release.min.js
-  skip_cleanup: true
-  draft: true
+  api_key:
+    secure: 1o5LbTS1zQmxlwR+ZjnbMeZfXivmU2uhGwPQ7LLOzcFo+6ARwISppaTbirwYsgdgbZCIh67/aeKcxpF1uPSpw/HSZpU8GhQgMjx8qgVVjjUiPbgCGtI1oooCtbtImnWu5rqZLmFaUgJ/tb18Xbs3FVnY+glGuZbewzLC/PDyCGmFWsHfU3VNXjf7Nhfw0orOVh3o2HhNOcMKdv0T4NYLFHtXluWF097g6tk5fJVn6GqryGavdOyY1DuN9VdQtQROMYMJItwoBs9IQWqBDTeco1XhC+F9sYbDKpQTZVSyuJGsTaB/xSXmpiMCdORuEiD1GUAzXBI8c9PG6++7zrIu8CmJ7wMC0Ix+r2DIhTQWkL8xJNf5gDZMn83zFZvnz8ZIivkHVqn+xgUBLHB3W1p6TaOkQ//IyF+VrCj1qyJNbevkHyZvl8c0FL7Oazc4noB7JXSJZc8oHr4q/oA0fGo3QvYb+46F3nIAh9FjmP0ZMJ12LhP+V/yQHvlhC/D5YrWmp7zkuaYVA0AQD/BmLR9EmQXaAq6xPFDoPPFxgn6wqWxqcWOJAE4sZvlrV+my1h01OWlQkJe6qVkZRLXlk9SQWFTJrfj2GfOrj3+8zOb1R8IEijtnq4aDMBSPDvByDr3uO8vcfuwAsxuVIENSoZh4kreznNFE3unFBr0ycG0tyYc=
+  file: md.release.js
   on:
+    repo: 8sd/md
     tags: true
