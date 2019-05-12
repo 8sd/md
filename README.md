@@ -1,7 +1,5 @@
 # `md` - Use Markdown in HTML
 
-To use `md` first import [`marked`](https://github.com/markedjs/marked) and afterwards `md`.
-
 After including `md` one can use markdown in html like this:
 
 ```html
@@ -18,4 +16,4 @@ For examples see the `index.html` which is a demo file.
 
 This script is distributed under the MIT Licese.
 
-`marked` is distributed under the MIT Licese as well (see [here](https://github.com/markedjs/marked/blob/master/LICENSE.md)).
+`marked` (The mardown parsing library) is distributed under the MIT Licese as well (see [here](https://github.com/markedjs/marked/blob/master/LICENSE.md)).
