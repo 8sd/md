@@ -7,4 +7,5 @@ cat marked/marked.min.js > md.release.js;
 cat md.js >> md.release.js;
 echo "→ done"
 
+cat md.release.js;
 # minify script
