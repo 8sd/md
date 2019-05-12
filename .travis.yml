@@ -1,7 +1,7 @@
 language: minimal
 install:
 - "./build.sh"
-- echo md.release.js
+- cat md.release.js
 deploy:
   provider: releases
   api_key:
