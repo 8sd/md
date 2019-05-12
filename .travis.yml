@@ -1,0 +1,13 @@
+language: minimal
+install:
+  - ./build.sh
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  file: 
+    - md.release.js
+#    - md.release.min.js
+  skip_cleanup: true
+  draft: true
+  on:
+    tags: true
