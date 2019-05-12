@@ -17,3 +17,5 @@ function md_parse () {
     }
   }
 }
+
+window.onload=md_parse;
